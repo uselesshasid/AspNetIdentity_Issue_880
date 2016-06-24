@@ -68,9 +68,6 @@
   "frameworks": {
     "net452": {
       "dependencies": {
-        "ClassLibrary1": {
-          "target": "project"
-        }
       }
     }
   },
