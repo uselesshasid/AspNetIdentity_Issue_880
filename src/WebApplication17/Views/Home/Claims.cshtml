@@ -1,0 +1,20 @@
+﻿@model WebApplication17.Controllers.ClaimsViewModel
+
+
+<h2>Identity Claims</h2>
+<ul>
+    @foreach (var claim in Model.IdentityClaims)
+    {
+        <li>@claim.Issuer - @claim.Type - @claim.Value</li>
+    }
+</ul>
+
+
+
+<h2>System Claims</h2>
+<ul>
+    @foreach (var claim in Model.SystemClaims)
+    {
+        <li>@claim.Issuer - @claim.Type - @claim.Value</li>
+    }
+</ul>
